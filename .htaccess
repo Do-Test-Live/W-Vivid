@@ -1,0 +1,7 @@
+ErrorDocument 404 http://localhost/W-Vivid/404.html
+
+RewriteEngine on
+
+RewriteRule ^Home index.html [NE,L]
+
+RewriteRule ^Logout logout.php [NE,L]
