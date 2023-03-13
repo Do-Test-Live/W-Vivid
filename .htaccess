@@ -4,4 +4,4 @@ RewriteEngine on
 
 RewriteRule ^Home index.html [NE,L]
 
-RewriteRule ^Logout logout.php [NE,L]
+RewriteRule ^Public-Relations public-relations.html [NE,L]
