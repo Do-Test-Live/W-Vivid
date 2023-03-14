@@ -7748,11 +7748,11 @@ p {
     }
 
     .right-content-contact-pg h1, .single-con-dts h2 {
-        color: #1a1a1a
+        color: #ffffff;
     }
 
     .right-content-contact-pg p, .single-con-dts a, .single-con-dts address {
-        color: #6b6161
+        color: #ffffff
     }
 
     .mapouter, .mapouter .gmap_canvas iframe {
