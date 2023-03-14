@@ -72,13 +72,13 @@ $(function (e) {
             settings: {slidesToShow: 2}
         }, {breakpoint: 720, settings: {slidesToShow: 1}}]
     }), e(".partner-logo-slider").slick({
-        slidesToShow: 5,
+        slidesToShow: 8,
         slidesToScroll: 1,
         arrows: !1,
         focusOnSelect: !0,
         dots: !1,
-        autoplay: !1,
-        autoplaySpeed: 5e3,
+        autoplay: true,
+        autoplaySpeed: 1500,
         responsive: [{breakpoint: 992, settings: {slidesToShow: 3, autoplay: !0}}, {
             breakpoint: 768,
             settings: {slidesToShow: 2, autoplay: !0}
