@@ -862,7 +862,7 @@ p {
 .banner-area-wrap {
     position: relative;
     z-index: 1;
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../img/hero-bg.png);
     background-size: cover;
     padding-top: 264px;
     padding-bottom: 118px;
