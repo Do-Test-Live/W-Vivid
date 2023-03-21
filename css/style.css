@@ -399,7 +399,7 @@ p {
 }
 
 .navbar-brand img {
-    max-height: 70px;
+    max-height: 75px;
     display: block
 }
 
@@ -407,7 +407,7 @@ p {
     padding: 0;
     margin: 0;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 24px;
     color: #1a1a1a
 }
@@ -485,7 +485,40 @@ p {
     padding: 0
 }
 
+.middle-image{
+    display: none;
+}
+
+.corporate{
+    display: none;
+}
+.corporate_old{
+    display: block;
+}
+
+.sub-heading{
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
 @media only screen and (max-width: 991px) {
+    .sub-heading{
+        font-size: 16px !important;
+    }
+    .corporate_old{
+        display: none;
+    }
+
+    .corporate{
+        display: block;
+    }
+
+    .middle-image{
+        display: block;
+    }
+    .hidden{
+        display: none;
+    }
     .main-responsive-nav {
         display: block
     }
