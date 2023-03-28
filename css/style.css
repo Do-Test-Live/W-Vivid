@@ -7800,3 +7800,7 @@ p {
     max-width: 510px;
     margin: 17px auto 40px
 }
+
+.vivid-text-primary{
+    color: #604a9d;
+}
