@@ -12,6 +12,10 @@ RewriteRule ^KOL-and-Talents-Management kol-and-talents-management.html [NE,L]
 
 RewriteRule ^Video-Production-and-Graphic-Design video-production-and-graphic-design.html [NE,L]
 
+RewriteRule ^Event\-Management/Corporate\-Event corporate-event.html [NE,L]
+
+RewriteRule ^Event\-Management/Wedding\-Planner wedding-planner.html [NE,L]
+
 RewriteRule ^Event-Management event-management.html [NE,L]
 
 RewriteRule ^Corporate-Communications corporate-communications.html [NE,L]
