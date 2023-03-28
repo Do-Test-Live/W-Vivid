@@ -1,4 +1,4 @@
-ErrorDocument 404 http://localhost/W-Vivid/404.html
+ErrorDocument 404 https://vivid-elite.com/404.html
 
 RewriteEngine on
 

@@ -238,3 +238,5 @@ $('.counter-count').each(function () {
         }
     });
 });
+
+
