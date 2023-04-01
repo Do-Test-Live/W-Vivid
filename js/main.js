@@ -22,8 +22,8 @@ $(function (e) {
         scrollableHeight: "350px",
         onSelect: function (value, element) {
             let urls = {
-                "CN": '?CN',
-                "US": '?US',
+                "CN": window.location.protocol + '//' + window.location.host+'/Chinese'+window.location.pathname,
+                "US": window.location.protocol + '//' + window.location.host+window.location.pathname,
             };
             document.location.href = urls[value];
             console.log(element);
