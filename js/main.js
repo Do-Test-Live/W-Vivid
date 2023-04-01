@@ -21,9 +21,11 @@ $(function (e) {
         scrollable: !1,
         scrollableHeight: "350px",
         onSelect: function (value, element) {
+            let chinaURL = window.location.pathname.split("/");
+            let result = chinaURL[chinaURL.length - 1]; // Or parts.pop();
             let urls = {
                 "CN": window.location.protocol + '//' + window.location.host+'/Chinese'+window.location.pathname,
-                "US": window.location.protocol + '//' + window.location.host+window.location.pathname,
+                "US": window.location.protocol + '//' + window.location.host+'/'+result,
             };
             document.location.href = urls[value];
             console.log(element);
