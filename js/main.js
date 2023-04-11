@@ -14,7 +14,7 @@ $(function (e) {
     }), e("#return-to-top").on("click", function () {
         e("body,html").animate({scrollTop: 0}, 500)
     }), e("#options").flagStrap({
-        countries: {CN: "Chinese",US: "English"},
+        countries: {HK: "中文&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",US: "English"},
         buttonSize: "btn-sm",
         buttonType: "btn-info",
         labelMargin: "10px",
@@ -24,7 +24,7 @@ $(function (e) {
             let chinaURL = window.location.pathname.split("/");
             let result = chinaURL[chinaURL.length - 1]; // Or parts.pop();
             let urls = {
-                "CN": window.location.protocol + '//' + window.location.host+'/Chinese'+window.location.pathname,
+                "HK": window.location.protocol + '//' + window.location.host+'/Chinese'+window.location.pathname,
                 "US": window.location.protocol + '//' + window.location.host+'/'+result,
             };
             document.location.href = urls[value];
