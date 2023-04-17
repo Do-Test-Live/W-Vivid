@@ -1197,7 +1197,7 @@ p {
     border-radius: 50%;
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 13px;
     -webkit-transform: translate(0, -50%);
     -moz-transform: translate(0, -50%);
     transform: translate(0, -50%);
